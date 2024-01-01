@@ -24,7 +24,7 @@ qmk setup Olejekglejek/qmk_firmware
 or
 qmk setup -H /d/Code/keyb/qmk_firmware Olejekglejek/qmk_firmware
 
-qmk compile -e CONVERT_TO=elite_pi
+qmk compile -e CONVERT_TO=elite_pi -flto=auto
 
 Convert olejekglejek.json to keymap.c file using QMK-MSYS terminal
 
